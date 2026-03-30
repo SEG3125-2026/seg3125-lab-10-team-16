@@ -1,0 +1,33 @@
+{
+  "business": {
+    "name": "Elite Cuts",
+    "tagline": "Premium Hair Salon & Barbershop",
+    "phone": "(613) 555-0123",
+    "email": "info@elitecuts.ca",
+    "address": "123 Main Street, Ottawa, ON K1A 0A1",
+    "hours": {
+      "mon_fri": "9:00 AM - 7:00 PM",
+      "saturday": "8:00 AM - 6:00 PM",
+      "sunday": "10:00 AM - 4:00 PM"
+    }
+  },
+  "services": [
+    { "name": "Men's Haircut", "price": 35, "duration": "30 min" },
+    { "name": "Women's Haircut", "price": 55, "duration": "45 min" },
+    { "name": "Beard Trim", "price": 25, "duration": "20 min" },
+    { "name": "Hair Color", "price": 85, "duration": "90 min" },
+    { "name": "Wash & Style", "price": 40, "duration": "30 min" },
+    { "name": "Haircut + Beard", "price": 50, "duration": "45 min" }
+  ],
+  "stylists": [
+    { "name": "Sarah Johnson", "role": "Senior Stylist", "off_days": "Saturday & Sunday" },
+    { "name": "Michael Chen", "role": "Master Barber", "off_days": "Sunday" },
+    { "name": "Emma Rodriguez", "role": "Color Specialist", "off_days": "Saturday & Sunday" },
+    { "name": "James Wilson", "role": "Stylist", "off_days": "Saturday" },
+    { "name": "Any Stylist", "role": "Best available", "off_days": "none" }
+  ],
+  "booking_notes": {
+    "website_constraint": "Lab 5 site blocks weekends for booking; Sat/Sun hours above may be walk-in only in chatbot story—pick one policy and stay consistent.",
+    "stylist_off_days_detail": "Sarah & Emma: Sun+Sat off; Michael: Sun; James: Sat only—use in fulfillment to refuse invalid combos or ask for another date/stylist."
+  }
+}
