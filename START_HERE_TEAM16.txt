@@ -1,0 +1,79 @@
+================================================================================
+SEG3125 LAB 10 — WORKSPACE CONTEXT (TEAM 16)
+Paste this into Cursor / a new chat so everyone knows what this folder is for.
+================================================================================
+
+WHAT THIS FOLDER IS
+-------------------
+Path on disk: seg3125-lab10-team-16 (e.g. Documents/seg3125-lab10-team-16)
+
+It is a working copy that contains:
+  (A) The Lab 5 "Elite Cuts" hair salon website (HTML/CSS/JS) — REFERENCE ONLY.
+  (B) A folder called "lab10/" with written specs for Google Dialogflow CX.
+
+Lab 10 is NOT more React/Heritage Archive work. It is a conversational chatbot built
+in Dialogflow CX (Google Cloud), based on the SAME business as Labs 4–5: Elite Cuts
+salon (booking, services, stylists, hours).
+
+
+HOW THIS RELATES TO OTHER LABS
+-------------------------------
+• Lab 8/9: Heritage Archive website (different project — GitHub seg3125-lab-9-group16).
+• Lab 5: Elite Cuts single-page booking site
+         https://github.com/SEG3125-2026/seg3125-lab-5-team-16
+• Lab 10: Dialogflow CX chatbot that helps users book / ask about services for that
+          SAME Elite Cuts business. Slides say "go back to labs 4 and 5" — we use Lab 5.
+
+
+WHAT IS ALREADY DONE IN THIS WORKSPACE
+--------------------------------------
+• Cloned Lab 5 codebase into this folder (services, stylists, validation logic in js/app.js).
+• Added lab10/elite-cuts-data.json — prices, service names, staff, address, hours (for bot copy).
+• Added markdown guides in lab10/:
+    - DIALOGFLOW_CX_BUILD_GUIDE.md  → main step-by-step for the Google console
+    - ENTITIES_AND_PARAMETERS.md     → custom + built-in entities
+    - FLOWS_AND_PAGES.md             → flow + page structure
+    - TRAINING_PHRASES.md            → example things users say
+    - VIDEO_AND_SUBMISSION_CHECKLIST.md → what the video + PDF must show
+• README.md at root explains Lab 10 vs the reference site.
+
+
+WHAT YOU STILL HAVE TO DO (CANNOT BE DONE FROM CODE ALONE)
+-----------------------------------------------------------
+• Create a Dialogflow CX Agent in Google Cloud (course Google account / project).
+• Implement flows: Welcome, Booking (service → stylist → date → time → contact →
+  confirm), Support (services / hours / location).
+• Use required parameters, custom entities (services, stylists), built-in entities
+  (date, time, email, phone) where possible.
+• Handle partial user input, missing slots, confirmation, and at least one fallback.
+• Record a video UNDER 10 minutes showing chat + console (flows, entities/parameters).
+• Screenshots + share agent with TAs as Reviewer (per official lab instructions).
+Deadline Lab 10: April 5, 2026, 11:59 PM (3%).
+
+
+GIT WARNING
+-----------
+This directory was created by cloning the Lab 5 repo, so "git remote origin" may
+still point to seg3125-lab-5-team-16. DO NOT push Lab 10-only commits to Lab 5.
+
+Before pushing: create a NEW GitHub repo for Lab 10 (e.g. seg3125-lab-10-team-16),
+then:
+  git remote remove origin
+  git remote add origin <NEW-LAB10-REPO-URL>
+  git push -u origin main
+
+(Adjust branch name if needed.)
+
+
+WHERE TO OPEN IN CURSOR
+-----------------------
+File → Open Folder → select: seg3125-lab10-team-16
+
+First file to read: lab10/DIALOGFLOW_CX_BUILD_GUIDE.md
+
+
+GROUP
+-----
+Group 16: Pierre Georges, Eknoor Goraya, Ziad Tariq
+
+================================================================================
