@@ -1,0 +1,24 @@
+{
+  "name": "3b2dcb3f-3391-4f6f-bfa2-a7e71305a482",
+  "displayName": "Service",
+  "form": {
+    "parameters": [ {
+      "displayName": "service",
+      "required": true,
+      "entityType": "@salon_service",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.service",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Stylist",
+    "name": "ac43a6d9-d8dc-42af-b1de-9103dc313f8f"
+  } ]
+}

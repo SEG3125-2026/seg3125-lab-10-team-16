@@ -1,0 +1,13 @@
+{
+  "name": "75a72ac8-65c7-419e-a840-56ee4ed21e40",
+  "displayName": "booking.start",
+  "parameters": [ {
+    "id": "salon_service",
+    "entityType": "@salon_service"
+  }, {
+    "id": "date-time",
+    "entityType": "@sys.date-time"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 1
+}

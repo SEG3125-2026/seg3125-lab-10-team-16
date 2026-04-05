@@ -1,0 +1,23 @@
+{
+  "entities": [ {
+    "value": "Sarah Johnson",
+    "synonyms": [ "sarah", "Sarah Johnson" ],
+    "languageCode": "en"
+  }, {
+    "value": "Michael Chen",
+    "synonyms": [ "michael", "Michael Chen", "mike" ],
+    "languageCode": "en"
+  }, {
+    "value": "Emma Rodriguez",
+    "synonyms": [ "emma", "Emma Rodriguez" ],
+    "languageCode": "en"
+  }, {
+    "value": "James Wilson",
+    "synonyms": [ "james ", "James Wilson" ],
+    "languageCode": "en"
+  }, {
+    "value": "Any Stylist",
+    "synonyms": [ "any", "Any Stylist", "anyone", "no preference" ],
+    "languageCode": "en"
+  } ]
+}

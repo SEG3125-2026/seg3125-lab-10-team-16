@@ -1,0 +1,24 @@
+{
+  "name": "1a6f5327-b3d2-4e09-b75d-76b6ac7eff42",
+  "displayName": "Stylist",
+  "form": {
+    "parameters": [ {
+      "displayName": "stylist",
+      "required": true,
+      "entityType": "@stylist",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "@stylist",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Data",
+    "name": "3632ff49-4197-4765-bd21-91ad15182b66"
+  } ]
+}

@@ -1,0 +1,24 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "book,appointment,reserve, Ineed a haircut, ",
+      "auto": true
+    }, {
+      "text": "women's haircut",
+      "parameterId": "salon_service",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "tomorrow",
+      "parameterId": "date-time",
+      "auto": true
+    }, {
+      "text": ", etc",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

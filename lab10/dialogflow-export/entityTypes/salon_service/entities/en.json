@@ -1,0 +1,27 @@
+{
+  "entities": [ {
+    "value": "Men's Haircut ",
+    "synonyms": [ "cut ", "male haircut", "men's", "men's cut" ],
+    "languageCode": "en"
+  }, {
+    "value": "Women's Haircut",
+    "synonyms": [ "fermale haircut", "women haircut", "Women's Haircut" ],
+    "languageCode": "en"
+  }, {
+    "value": "Beard Trim",
+    "synonyms": [ "beard", "Beard Trim", "trim beard" ],
+    "languageCode": "en"
+  }, {
+    "value": "Hair Color",
+    "synonyms": [ "color", "colour", "dye", "Hair Color" ],
+    "languageCode": "en"
+  }, {
+    "value": "Wash \u0026 Style",
+    "synonyms": [ "blowout", "Wash \u0026 Style", "wash and style" ],
+    "languageCode": "en"
+  }, {
+    "value": "Haircut + Beard",
+    "synonyms": [ " cut and beard", "combo", "Haircut + Beard" ],
+    "languageCode": "en"
+  } ]
+}
