@@ -13,9 +13,11 @@ This repository folder is set up as a **workspace** that includes:
 
 ## Quick start (Team 16)
 
-1. Open **`lab10/DIALOGFLOW_CX_BUILD_GUIDE.md`** and create the agent in the Dialogflow CX console.
-2. Use **`lab10/elite-cuts-data.json`** for exact service names, prices, staff, and contact info in fulfillments.
-3. Follow **`lab10/VIDEO_AND_SUBMISSION_CHECKLIST.md`** before recording.
+1. Open **`lab10/DIALOGFLOW_CX_BUILD_GUIDE.md`** for the full assignment setup.
+2. Build directly from **`lab10/CX_AGENT_BUILD_SHEET.md`** (copy/paste page-by-page configuration).
+3. Use **`lab10/elite-cuts-data.json`** for exact service names, prices, staff, and contact info in fulfillments.
+4. Rehearse recording with **`lab10/VIDEO_DEMO_SCRIPT.md`**.
+5. Track completion with **`lab10/LOCAL_PROGRESS_CHECKLIST.md`** and finalize with **`lab10/VIDEO_AND_SUBMISSION_CHECKLIST.md`**.
 
 ---
 
