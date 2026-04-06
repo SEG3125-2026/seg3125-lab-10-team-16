@@ -9,6 +9,9 @@ This repository folder is set up as a **workspace** that includes:
 
 **Lab 5 (reference only):** https://seg3125-2026.github.io/seg3125-lab-5-team-16/
 
+**This team’s Lab 10 repo:** https://github.com/SEG3125-2026/seg3125-lab-10-team-16  
+**GitHub Pages (reference site):** https://seg3125-2026.github.io/seg3125-lab-10-team-16/
+
 ---
 
 ## Quick start (Team 16)
@@ -21,20 +24,17 @@ This repository folder is set up as a **workspace** that includes:
 
 ---
 
-## Git / new GitHub repository (recommended)
+## Git / GitHub (Team 16)
 
-This folder may still have `origin` pointing at **Lab 5** after a fresh clone. For Lab 10 submission, create a **new** repo (e.g. `seg3125-lab-10-team-16`) and push:
+Remote for this lab: **`https://github.com/SEG3125-2026/seg3125-lab-10-team-16.git`**
 
 ```bash
 cd /path/to/seg3125-lab10-team-16
-git remote remove origin   # only if it still points to lab 5
-git remote add origin https://github.com/SEG3125-2026/YOUR-LAB10-REPO.git
-git add -A
-git commit -m "Lab 10: Dialogflow spec + Lab 5 reference for Elite Cuts"
+git remote set-url origin https://github.com/SEG3125-2026/seg3125-lab-10-team-16.git
 git push -u origin main
 ```
 
-Adjust branch name if your course uses `master`.
+If the empty repo was created with an initial `README` on GitHub, run `git pull origin main --rebase` once, then push again (or follow your TA’s merge instructions).
 
 ---
 
